@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Notebook here]
+@="&Notebook here"
+"Icon"="launch_notebook.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Notebook here\command]
+@="launch_notebook.bat \"%V\""

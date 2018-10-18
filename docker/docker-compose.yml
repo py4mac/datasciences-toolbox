@@ -1,0 +1,12 @@
+version: '2.3'
+services:
+  anaconda-ec:
+    build: anaconda
+    restart: always
+    runtime: nvidia
+    volumes:
+      - ./notebooks:/notebooks
+    ports:
+      - "8888:8888"
+      - "6006:6006"
+
