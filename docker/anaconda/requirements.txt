@@ -16,3 +16,4 @@ fbprophet
 tqdm
 mapboxgl
 pysal
+opencv-python
